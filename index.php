@@ -28,6 +28,9 @@ try {
    $res2 = $date->current();
    print_r($res2);
    
+
+   echo $command ;
+   
 } catch(Exception $e) {
 	
 	echo $e->getMessage();
