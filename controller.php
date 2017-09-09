@@ -1,4 +1,4 @@
-<?
+<?php
   class FrontController {
 	  
 	 private const SECRET_KEY = 'ash4h5hdsnshagwsf5452';
@@ -9,6 +9,9 @@
 		 echo self::SECRET_KEY;
 	 }
   }
-  
+ try {
   $contrll = new FrontController();
+ } catch(Exception $e) {
+	echo $e->getMessage(); 
+ }
 ?>
