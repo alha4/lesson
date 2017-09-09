@@ -21,11 +21,15 @@ $command = $_GET['cmd'] ?? 'not defined';
 try {
 	
    $date = Users(debug(333));
-   echo APIKEY;
+   //echo APIKEY;
    
    $res = $date->current();
    $res = $date->next();
    $res2 = $date->current();
+   print_r($res2);
+   
+
+   echo $command;
    
 } catch(Exception $e) {
 	
