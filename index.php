@@ -29,7 +29,7 @@ try {
    print_r($res2);
    
 
-   echo $command ;
+   echo $command;
    
 } catch(Exception $e) {
 	
